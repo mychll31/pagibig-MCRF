@@ -1,0 +1,28 @@
+/* 
+    Document   : print.css
+    Created on : Dec 2, 2013, 9:39:19 AM
+    Author     : mychll
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#header img{
+    visibility: visible;
+}
+*{
+    font-family: Arial;
+    margin: 0px;
+#    font-size: 5pt;
+}
+#tblalter td{
+#    font-size: 5pt;
+}

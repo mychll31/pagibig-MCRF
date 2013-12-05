@@ -1,0 +1,144 @@
+/* 
+    Document   : styles
+    Created on : Nov 30, 2013, 8:24:25 PM
+    Author     : mychll
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+*{
+    font-family: Calibri;
+}
+@media screen
+  {
+      img{
+          width: 100%;
+      }
+  td {
+      font-size:12pt;
+      padding: 3px;
+  }
+  .pno{
+      width:40%;
+  }
+  .total1{
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 250px 90px;  
+  }
+  .total2{
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 250px 90px;  
+  }
+  .totala{
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 170px 45px; 
+  }
+  .imgpeso{
+      background: url('../images/peso.png') no-repeat;
+      background-size: 10px 10px;
+      background-position: right;
+  }
+  select {
+   background: transparent;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   -webkit-appearance: none;
+   }
+  .profilebtn{
+       background-color: #fff;
+       border: 0px;
+   }
+   .main{
+       width: 70%;
+       margin: 0 auto;
+   }
+  }
+@media print
+  {
+      img{
+          width: 100%;
+          height: 17%;
+      }
+  td {
+      font-size:5pt;
+      padding: 3px;
+  }
+  table {
+      border-collapse: collapse;
+      
+  }
+  .pno{
+      background-color: blue;
+  }
+  .total1{
+      padding: 0px;
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 110px 60px; 
+  }
+  .total2{
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 100px 60px; 
+  }
+  .totala{
+      background: url('../images/arrow.png') no-repeat;
+      background-size: 80px 30px;  
+  }
+  .imgpeso{
+      background: url('../images/peso.png') no-repeat;
+      background-size: 5px 5px;
+      background-position: right;
+  }
+  select {
+   background: transparent;
+   font-size: 6pt;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   -webkit-appearance: none;
+   }
+      .profilebtn{
+       background-color: #fff;
+       border: 0px;
+       font-size: 6pt;
+   }
+   th{
+       font-size: 6pt;
+   }
+   body{
+       margin-top: 25 in;
+       margin-left: 40 in;
+       margin-right: 40 in;
+       margin-bottom: 38 in;
+   }
+  }
+  #tblalter tr:nth-child(odd) {background: #CCC}
+  #tblalter tr:nth-child(even) {background: #FFF}
+  
+input[type="button"]:hover{
+        color: crimson;
+        font-weight: bold;
+
+    }
+    .empno{
+        background-color: gray;
+        margin-top: -4px;
+        margin-left: -3px;
+        margin-right: -3px;
+        padding: 1px;
+    }
+    .empbtn{
+        text-decoration: none;
+        color: black;
+    }
+    .empbtn:hover{
+        color: crimson;
+    }
